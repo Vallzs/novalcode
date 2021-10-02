@@ -1,0 +1,137 @@
+/* Navbar */
+.navbar {
+  background-color: rgb(236, 202, 149);
+}
+.navbar-brand {
+  font-family: serif;
+  font-size: 32px;
+  color: rgb(126, 74, 31) !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(assets/img/bg4.jpeg);
+  background-size: cover;
+  height: 640px;
+}
+
+.jumbotron .display-4 {
+  font-family: 'Unna', serif;
+  color: rgb(211, 165, 97);
+  text-align: left;
+  margin-top: 120px;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+}
+
+.jumbotron .display-4 span {
+  color: rgb(133, 78, 27);
+  font-weight: 1000 !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0, 7);
+}
+
+.jumbotron-fluid .display-5 {
+  color: rgb(133, 78, 27);
+  font-family: serif;
+  background-size: auto;
+  border-radius: 2px;
+  text-align: left;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.jumbotron-fluid .display-5 .row {
+  color: rgb(133, 78, 27);
+}
+
+.jumbotron-fluid .halo {
+  margin-top: 50px;
+  color: rgb(126, 74, 31);
+}
+
+.jumbotron-fluid .oit {
+  color: rgb(126, 74, 31);
+}
+
+.jumbotron-fluid h5 {
+  color: black;
+  background-color: rgb(245, 237, 210);
+  background-size: auto;
+  border-radius: 2px;
+  text-align: center;
+  margin-top: -8px;
+  padding: auto;
+  margin-bottom: 3px;
+}
+
+/* Login */
+.jumbotron-fluid {
+  font-family: serif;
+  color: rgb(126, 74, 31);
+  font-size: 20px;
+}
+
+.jumbotron-fluid .login {
+  padding: 1em;
+  width: 17em;
+  border-radius: 3px;
+}
+
+.jumbotron .jumbotron-fluid .form-group label {
+  text-transform: uppercase;
+  font-family: serif;
+  font-size: 120px;
+}
+
+/* Utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.tombol1 {
+  text-transform: uppercase;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: rgb(126, 74, 31) !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(126, 74, 31) !important;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background-color: rgb(245, 237, 210);
+  padding-top: 30px;
+  font-family: Verdana;
+  color: rgb(126, 74, 31) !important;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+footer p {
+  font-size: 1, 5em;
+}
